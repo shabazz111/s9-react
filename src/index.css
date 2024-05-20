@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login-admin {
+  @apply w-full h-screen bg-[url('/hbla.png')] flex justify-center items-center bg-cover bg-center bg-no-repeat;
+}
+
+.login-admin-form{
+  @apply w-fit md:w-96 py-8 p-4 bg-white gap-7 rounded-md flex flex-col justify-center items-center
+}
+
+
